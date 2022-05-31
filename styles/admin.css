@@ -1,0 +1,186 @@
+/* CSS Document */
+#container{
+	height:500px;
+}
+#dialog-container{
+	height:300px;
+}
+#dialog-box{
+	height:150px;
+	width:500px;
+	border:1px solid #CCC;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	position:relative;
+	left:250px;
+	top:25px;
+	background:#FFF;
+	background:url(../images/j_login_lock.jpg) no-repeat left bottom;
+}
+.login{
+	width:350px;
+	float:right;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	height:115px;
+	border:1px solid #CCC;
+	position:relative;
+	top:25px;
+	right:5px;
+	background:#EEE;
+}
+form{
+	position:relative;
+	top:10px;
+	left:10px;
+}
+label{
+	font-weight:bold;
+	font-style:italic;
+}
+.button{
+	cursor:pointer;
+	float:right;
+	margin-right:35px;
+	margin-top:5px;
+	padding:3px;
+	color:#000;
+	font-weight:500;
+	border:1px solid #666;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	background:#090;
+	background-image: linear-gradient(bottom, rgb(29,120,16) 14%, rgb(62,117,11) 57%);
+background-image: -o-linear-gradient(bottom, rgb(29,120,16) 14%, rgb(62,117,11) 57%);
+background-image: -moz-linear-gradient(bottom, rgb(29,120,16) 14%, rgb(62,117,11) 57%);
+background-image: -webkit-linear-gradient(bottom, rgb(29,120,16) 14%, rgb(62,117,11) 57%);
+background-image: -ms-linear-gradient(bottom, rgb(29,120,16) 14%, rgb(62,117,11) 57%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.14, rgb(29,120,16)),
+	color-stop(0.57, rgb(62,117,11))
+);
+}
+input[type="password"], input[type="text"]{
+	border:1px solid #CCC;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	width:230px;
+	height:25px;
+}
+.error{
+	width:98%;
+	height:20px;
+	background:#FED3FE;
+	color:#C54350;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	position:relative;
+	top:10px;
+	margin:auto;
+	text-align:center;
+	font-size:14px;
+}
+#top-search{
+	height:30px;
+	background:#CCC;
+	position:relative;
+	top:5px;
+	box-shadow:0px 1px 2px #000;
+}
+.admin-button{
+	list-style:none;
+	position:relative;
+	top:2px;
+}
+.admin-button li{
+	float:left;
+}
+#batch-buttons{
+	border:3px solid #CCC;
+	height:200px;
+	width:200px;
+	position:relative;
+	top:30px;
+	left:25px;
+}
+#batch-buttons ul{
+	list-style:none;
+	margin:auto;
+	width:98%;
+}
+#batch-buttons li{
+	margin:10px;
+}
+#batch-buttons input[type="submit"]{
+	width:150px;
+}
+#batch-buttons h1{
+	text-align:center;
+	background:#CCC;
+	color:#FFF;
+	font-size:16px;
+	border-bottom:3px solid #CCC;
+}
+#settings{
+	float:right;
+	width:600px;
+	height:
+	200px;
+	border:1px solid #000;
+	position:relative;
+	top:30px;
+	right:30px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+.addsch{
+	float:none; 
+	width:250px; 
+	height:150px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	position:relative;
+	top:15px;
+	left:5px;
+	background:#EEE;
+}
+#confirm-buttons{
+	border:3px solid #CCC;
+	height:150px;
+	width:300px;
+	position:relative;
+	top:10px;
+	left:-20px;px;
+}
+#confirm-buttons ul{
+	list-style:none;
+	margin:auto;
+	width:98%;
+}
+#confirm-buttons li{
+	margin:5px;
+	float:left;
+}
+#confirm-buttons input[type="submit"]{
+	width:50px;
+}
+#confirm-buttons h1{
+	text-align:center;
+	background:#CCC;
+	color:#FFF;
+	font-size:16px;
+	border-bottom:3px solid #CCC;
+}
+#actievate{
+	height:100px;
+	width:100px;
+	background:#EEE;
+	float:right;
+	position:relative;
+	top:20px;
+	right:20px;
+}

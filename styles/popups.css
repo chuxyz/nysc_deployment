@@ -1,0 +1,66 @@
+/* CSS Document */
+
+#pop-up{
+	margin:auto;
+	position:relative;
+	top:-150px;
+	height:200px;
+	width:300px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	background:#F7F5D7;
+	border:8px solid #666;
+	z-index:999;
+	display:none;
+}
+.button{
+	float:right;
+	margin-right:0px;
+	margin-top:5px;
+	padding:3px;
+	color:#000;
+	font-weight:500;
+	border:1px solid #666;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	background:#090;
+	background-image: linear-gradient(bottom, rgb(29,120,16) 14%, rgb(62,117,11) 57%);
+background-image: -o-linear-gradient(bottom, rgb(29,120,16) 14%, rgb(62,117,11) 57%);
+background-image: -moz-linear-gradient(bottom, rgb(29,120,16) 14%, rgb(62,117,11) 57%);
+background-image: -webkit-linear-gradient(bottom, rgb(29,120,16) 14%, rgb(62,117,11) 57%);
+background-image: -ms-linear-gradient(bottom, rgb(29,120,16) 14%, rgb(62,117,11) 57%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.14, rgb(29,120,16)),
+	color-stop(0.57, rgb(62,117,11))
+);
+}
+#pop-up table{
+	margin:auto;
+}
+#pop-up fieldset{
+	position:relative;
+	top:30px;
+	left:10px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	color:#3C9;
+	font-weight:bold;
+	height:90px;
+}
+#pop-up img{
+	float:right;
+	border:none;
+}
+#transparent{
+	height:100%;
+	width:100%;
+	position:absolute;
+	z-index:99;
+	background:#000;
+	opacity:0.5;
+	display:none;
+}

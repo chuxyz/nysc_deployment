@@ -1,0 +1,91 @@
+/* CSS Document */
+body{
+	background:#FFF !important;
+	padding:20px 0 20px 0;
+}
+#cover{
+	width:900px;
+	height:550px;;
+	margin:auto;
+	border:1px solid #000;
+	padding:10px;
+}
+#logo{
+	height:100px;
+	width:100%;
+	padding:10px 0 10px 0;
+	border-bottom:5px groove #063;
+}
+#nig{
+	color:#063;
+	font-stretch:extra-expanded;
+	font-size:32px;
+	word-spacing:12px;
+}
+#nysc{
+	font-size:24px;
+	font-family:Verdana, Geneva, sans-serif;
+	word-spacing:12px;
+}
+#print{
+	color:#C45300;
+	font-weight:bolder;
+	text-decoration:none;
+	position:relative;
+	right:-440px;
+}
+#title{
+	position:relative;
+	top:-80px;
+}
+#letter-body{
+	height:300px;
+	width:98%;
+	border-top:1px solid #666;
+	border-right:1px solid #666;
+	border-left:1px solid #666;
+	border-bottom:3px solid #666;
+	margin:auto;
+	position:relative;
+	top:30px;
+	padding:0px;
+}
+#letter-body h2{
+	height:30px;
+	width:100%;
+	color:#FFF;
+	background:#063;
+	text-align:center;
+	line-height:30px;
+	margin-bottom:20px;
+}
+#letter-body td{
+	border-bottom:1px dotted #CCC;
+}
+#letter-body table{
+	font-size:17px;
+}
+#sub-cover{
+	margin: auto;
+	width:860px;
+}
+#personal{
+	height:200px;
+	width:425px;
+	border:1px solid #666;
+}
+#educational{
+	height:200px;
+	width:425px;
+	border:1px solid #666;
+	float:right;
+}
+h3{
+	height:15px;
+	width:100%;
+	color:#FFF;
+	background:#666;
+	text-align:center;
+	line-height:15px;
+	margin-bottom:10px;
+}
